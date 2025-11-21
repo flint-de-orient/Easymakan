@@ -7,7 +7,6 @@ import { About } from './components/About';
 import { Projects } from './components/Projects';
 import { Services } from './components/Services';
 import { Awards } from './components/Awards';
-
 import { Blog } from './components/Blog';
 import { FAQ } from './components/FAQ';
 import { Contact } from './components/Contact';
@@ -15,14 +14,18 @@ import { Footer } from './components/Footer';
 import { BlogPost } from './components/BlogPost';
 import { Chatbot } from './components/Chatbot';
 import { AdminPage } from './pages/AdminPage';
+import { LoadingAnimation } from './components/LoadingAnimation';
 
 
 function AppContent() {
   const [activeSection, setActiveSection] = useState('home');
+  const [isLoading, setIsLoading] = useState(true);
 
   // Scroll to top on page load/refresh
   useEffect(() => {
     window.scrollTo(0, 0);
+    const timer = setTimeout(() => setIsLoading(false), 2500);
+    return () => clearTimeout(timer);
   }, []);
 
 
@@ -61,6 +64,10 @@ function AppContent() {
     }
   };
 
+  if (isLoading) {
+    return <LoadingAnimation />;
+  }
+
   return (
     <Routes>
           <Route path="/" element={
@@ -78,8 +85,6 @@ function AppContent() {
               <FAQ />
               <Contact />
               <Footer />
-
-
             </div>
           } />
           <Route path="/blog/:slug" element={<BlogPost />} />
