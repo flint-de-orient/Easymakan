@@ -147,9 +147,9 @@ export function About() {
                   <div className="inline-block px-4 py-2 bg-[#d4af37]/10 text-[#d4af37] rounded-full mb-4">
                     Leadership
                   </div>
-                  <h3 className="text-[#0a1628] mb-2">Founder & CEO</h3>
+                  <h3 className="text-[#0a1628] mb-2">Sabir Ali Mollah</h3>
                   <p className="text-gray-600 mb-6">
-                    Easymakan Development Corporation
+                    Founder & CEO, Easymakan Development Corporation
                   </p>
                 </div>
 
