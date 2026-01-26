@@ -92,7 +92,7 @@ export function Services() {
         >
           <h3 className="mb-4">Why Choose Easymakan?</h3>
           <p className="max-w-3xl mx-auto mb-8 text-gray-300">
-            With over 25 years of excellence, we combine innovation, integrity, and
+            With over 5 years of excellence, we combine innovation, integrity, and
             expertise to deliver projects that exceed expectations. Our commitment to
             quality and customer satisfaction makes us the preferred choice for property
             development in Kolkata.

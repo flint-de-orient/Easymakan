@@ -27,6 +27,19 @@ export function Blog() {
 
   const blogPosts = [
     {
+      id: 10,
+      title: 'HIDCO Project: Premium Living in New Town Action Area III',
+      excerpt: 'Discover our latest HIDCO project offering 3 BHK apartments starting from ₹69 lakhs with freehold property assurance and modern amenities.',
+      image: '/hidco.png',
+      category: 'Projects',
+      author: 'Easymakan Team',
+      date: '2024-12-20',
+      readTime: '6 min read',
+      tags: ['HIDCO', 'New Town', 'Premium Living', 'Freehold'],
+      slug: 'hidco-project-premium-living-new-town',
+      featured: true
+    },
+    {
       id: 1,
       title: 'Top 10 Luxury Residential Areas in Kolkata 2024',
       excerpt: 'Discover the most prestigious neighborhoods in Kolkata offering world-class amenities and excellent connectivity.',
@@ -138,7 +151,7 @@ export function Blog() {
     }
   ];
 
-  const categories = ['All', 'Market Insights', 'Investment', 'Technology', 'Sustainability', 'Design', 'Legal', 'Amenities', 'Finance', 'PropTech'];
+  const categories = ['All', 'Projects', 'Market Insights', 'Investment', 'Technology', 'Sustainability', 'Design', 'Legal', 'Amenities', 'Finance', 'PropTech'];
 
   // Combine hardcoded and admin blogs
   const allPosts = [

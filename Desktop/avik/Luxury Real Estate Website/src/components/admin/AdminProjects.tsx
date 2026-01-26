@@ -425,16 +425,14 @@ export function AdminProjects() {
                   {new Date(project.createdAt).toLocaleDateString()}
                 </div>
                 <div className="flex items-center gap-2">
-                  {project.image && (
-                    <Button size="sm" variant="ghost" className="text-gray-500 hover:text-[#d4af37]">
-                      <Eye className="h-4 w-4" />
-                    </Button>
-                  )}
-                  {project.brochure && (
-                    <Button size="sm" variant="ghost" className="text-gray-500 hover:text-[#d4af37]">
-                      <Download className="h-4 w-4" />
-                    </Button>
-                  )}
+                  <Button size="sm" variant="outline" onClick={() => handleEdit(project)} className="text-blue-600 hover:text-blue-700">
+                    <Edit className="h-4 w-4 mr-1" />
+                    Edit
+                  </Button>
+                  <Button size="sm" variant="outline" onClick={() => handleDelete(project.id)} className="text-red-600 hover:text-red-700">
+                    <Trash2 className="h-4 w-4 mr-1" />
+                    Delete
+                  </Button>
                 </div>
               </div>
             </div>

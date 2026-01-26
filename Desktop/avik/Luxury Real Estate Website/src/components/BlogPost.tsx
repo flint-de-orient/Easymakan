@@ -10,6 +10,90 @@ export function BlogPost() {
   const { slug } = useParams();
 
   const blogData = {
+    'hidco-project-premium-living-new-town': {
+      title: 'HIDCO Project: Premium Living in New Town Action Area III',
+      category: 'Projects',
+      author: 'Easymakan Team',
+      date: '2024-12-20',
+      readTime: '6 min read',
+      heroImage: '/hidco.png',
+      excerpt: 'Discover our latest HIDCO project offering 3 BHK apartments starting from ₹69 lakhs with freehold property assurance and modern amenities.',
+      content: {
+        intro: 'Easymakan Development Corporation proudly presents our latest HIDCO project in the heart of New Town, Action Area III. This premium residential development offers modern living with freehold property assurance, strategic location advantages, and world-class amenities.',
+        sections: [
+          {
+            title: 'Project Overview & Location Advantages',
+            icon: MapPin,
+            content: 'Located in Action Area III near Rosedale Plaza, this HIDCO project offers unparalleled connectivity and modern infrastructure in New Town\'s most sought-after residential zone.',
+            image: '/hidco.png',
+            highlights: [
+              'HIDCO Freehold property with complete legal assurance',
+              'Strategic location near Rosedale Plaza and commercial hubs',
+              'Excellent connectivity to IT parks and business districts',
+              'Close proximity to schools, hospitals, and shopping centers',
+              'Well-planned infrastructure with wide roads and green spaces'
+            ]
+          },
+          {
+            title: 'Available Units & Pricing',
+            icon: Home,
+            content: 'Our HIDCO project offers spacious 3 BHK apartments designed for modern families, with competitive pricing and flexible payment options.',
+            image: '/hidco.png',
+            stats: [
+              { label: 'Starting Price', value: '₹69 Lakhs', description: '3 BHK apartments' },
+              { label: 'Carpet Area', value: '892.44 sq ft', description: 'Spacious living spaces' },
+              { label: 'Handover', value: '18 months', description: 'From plot registration' },
+              { label: 'Payment Plan', value: 'Flexible', description: 'Construction linked' }
+            ]
+          },
+          {
+            title: 'Payment Schedule & Financing',
+            icon: DollarSign,
+            content: 'We offer flexible payment options and construction-linked payment plans to make your dream home affordable and accessible.',
+            benefits: [
+              { feature: 'Booking Amount', saving: '20%', description: 'Initial payment on booking' },
+              { feature: 'Plot Registration', saving: '20%', description: 'On plot registration completion' },
+              { feature: 'Construction Linked', saving: '60%', description: 'Payments linked to construction milestones' }
+            ],
+            highlights: [
+              'Home loan assistance available from leading banks',
+              'Construction-linked payment ensures transparency',
+              'No hidden charges or additional costs',
+              'Flexible EMI options available'
+            ]
+          },
+          {
+            title: 'Premium Features & Amenities',
+            icon: Building,
+            content: 'Our HIDCO project incorporates modern design elements and premium amenities to enhance your living experience.',
+            features: [
+              { name: 'Quality Construction', description: 'Built with durable materials and modern techniques', benefit: 'Long-lasting durability' },
+              { name: 'Eco-Friendly Design', description: 'Natural lighting and ventilation systems', benefit: 'Energy efficient' },
+              { name: 'Modern Interiors', description: 'Contemporary design with premium finishes', benefit: 'Luxury living' },
+              { name: 'Security Systems', description: '24/7 security with CCTV surveillance', benefit: 'Complete safety' }
+            ]
+          },
+          {
+            title: 'Why Choose Easymakan for HIDCO Projects',
+            icon: Shield,
+            content: 'With 4 years of experience in residential development, Easymakan ensures quality construction, legal clarity, and timely delivery.',
+            highlights: [
+              'Proven track record in residential development',
+              'Complete legal documentation and HIDCO approvals',
+              'Quality assurance with premium materials',
+              'Fastest delivery with hassle-free process',
+              'Dedicated customer support throughout the journey'
+            ],
+            stats: [
+              { label: 'Experience', value: '4+ Years', description: 'In residential development' },
+              { label: 'Projects', value: '100%', description: 'Legal compliance' },
+              { label: 'Delivery', value: 'On-time', description: 'Guaranteed handover' },
+              { label: 'Support', value: '24/7', description: 'Customer assistance' }
+            ]
+          }
+        ]
+      }
+    },
     'top-10-luxury-areas-kolkata-2024': {
       title: 'Top 10 Luxury Residential Areas in Kolkata 2024',
       category: 'Market Insights',

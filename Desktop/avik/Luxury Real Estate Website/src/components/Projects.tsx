@@ -58,6 +58,17 @@ export function Projects() {
     ],
     upcoming: [
       {
+        name: 'HIDCO',
+        location: 'ACTION AREA -III, NEAR ROSEDALE PLAZA,   Kolkata',
+        status: 'Upcoming',
+        description: 'Premium residential development in the heart of New Town with modern amenities and strategic location near commercial hubs.',
+        image: '/hidco.png',
+        completion: '0%',
+        handover: '2028-2029',
+        highlights: ['Premium Living', 'Modern Design', 'Quality Construction', 'Prime Location'],
+        brochure: '/Easymakan-Hidco-Project (1).pdf'
+      },
+      {
         name: 'Vivid Vista',
         location: 'Shapoorji, Kolkata, West Bengal',
         status: 'Upcoming',
@@ -160,6 +171,8 @@ export function Projects() {
               let pdfPath = '';
               if (project.name === 'Aponjon Housing') {
                 pdfPath = '/aponjon_BROCHURE.pdf';
+              } else if (project.name === 'HIDCO') {
+                pdfPath = '/Easymakan-Hidco-Project (1).pdf';
               } else if (project.name === 'Vivid Vista') {
                 pdfPath = '/FINAL V VISTA.pdf';
               } else if (project.name === 'Green Vista') {
