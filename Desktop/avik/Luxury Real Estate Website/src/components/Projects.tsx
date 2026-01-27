@@ -59,7 +59,7 @@ export function Projects() {
     upcoming: [
       {
         name: 'HIDCO',
-        location: 'ACTION AREA -III, NEAR ROSEDALE PLAZA,   Kolkata',
+        location: 'ACTION AREA -III, NEAR ROSEDALE PLAZA,   I have already deployed my project once, but I’ve made some updates now—so please deploy it again on easymakandev.com.Kolkata',
         status: 'Upcoming',
         description: 'Premium residential development in the heart of New Town with modern amenities and strategic location near commercial hubs.',
         image: '/hidco.png',
