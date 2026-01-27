@@ -33,7 +33,7 @@ export function Projects() {
         image: aponjonHousingImage,
         completion: '75%',
         handover: '2027',
-        highlights: ['Premium Living', 'Modern Design', 'Quality Construction', 'Prime Location'],
+        highlights: ['Premium Living', 'Modern Design', 'Quality Build', 'Prime Location'],
       },
       {
         name: 'Solace Spring',
@@ -43,7 +43,7 @@ export function Projects() {
         image: 'https://images.unsplash.com/photo-1723719523590-d5d2e0669e2e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxLb2xrYXRhJTIwc2t5bGluZSUyMG1vZGVybiUyMGJ1aWxkaW5nc3xlbnwxfHx8fDE3NjE4MzA3MDF8MA&ixlib=rb-4.1.0&q=80&w=1080',
         completion: '25%',
         handover: '2027',
-        highlights: ['Peaceful Living', 'Contemporary Design', 'Lifestyle Amenities', 'Green Spaces'],
+        highlights: ['Peaceful Living', 'Modern Design', 'Quality Build', 'Prime Location'],
       },
       {
         name: 'Green Vista',
@@ -53,7 +53,7 @@ export function Projects() {
         image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGJ1aWxkaW5nJTIwbHV4dXJ5fGVufDF8fHx8MTc2MTgzMDcwMnww&ixlib=rb-4.1.0&q=80&w=1080',
         completion: '40%',
         handover: '2028',
-        highlights: ['Luxury Living', 'Premium Amenities', 'Strategic Partnership', 'Quality Construction'],
+        highlights: ['Luxury Living', 'Premium Amenities', 'Strategic Partnership', 'Quality Build'],
       },
     ],
     upcoming: [
@@ -76,7 +76,7 @@ export function Projects() {
         image: 'https://images.unsplash.com/photo-1760553120209-8e9d5d2493e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1cmJhbiUyMHBsYW5uaW5nJTIwZGV2ZWxvcG1lbnR8ZW58MXx8fHwxNzYxODA1NzA3fDA&ixlib=rb-4.1.0&q=80&w=1080',
         completion: '0%',
         handover: '2029-2030',
-        highlights: ['Spacious Apartments', 'Family Friendly', 'Modern Facilities', 'Future Growth Area'],
+        highlights: ['Spacious Apartments', 'Family Friendly', 'Modern Facilities', 'Future Growth'],
       },
     ],
     future: [
@@ -143,19 +143,19 @@ export function Projects() {
         </div>
         <div className="p-6 flex flex-col flex-1">
           <div className="flex items-start justify-between mb-2">
-            <h3 className="text-[#0a1628]">{project.name}</h3>
+            <h3 className="text-[#0a1628] min-h-[32px]">{project.name}</h3>
           </div>
-          <div className="flex items-center text-gray-600 mb-3">
+          <div className="flex items-center text-gray-600 mb-3 min-h-[24px]">
             <MapPin className="h-4 w-4 mr-1 text-[#d4af37]" />
-            {project.location}
+            <span className="line-clamp-1">{project.location}</span>
           </div>
-          <p className="text-gray-600 mb-4 flex-grow">{project.description}</p>
+          <p className="text-gray-600 mb-4 line-clamp-3 h-[72px]">{project.description}</p>
           {project.highlights && project.highlights.length > 0 && (
-            <div className="flex flex-wrap gap-2 mb-4">
+            <div className="flex flex-wrap gap-2 mb-4 min-h-[68px]">
               {project.highlights.filter((h: string) => h && h.trim()).map((highlight: string, index: number) => (
                 <span
                   key={index}
-                  className="px-3 py-1 bg-[#d4af37]/10 text-[#d4af37] rounded-full text-sm"
+                  className="px-3 py-1 bg-[#d4af37]/10 text-[#d4af37] rounded-full text-sm h-fit"
                 >
                   {highlight}
                 </span>
@@ -251,7 +251,7 @@ export function Projects() {
           </TabsContent>
 
           <TabsContent value="upcoming">
-            <div className="grid md:grid-cols-2 gap-8">
+            <div className="grid md:grid-cols-2 gap-8 items-start">
               {projects.upcoming.map((project, index) => (
                 <ProjectCard key={index} project={project} />
               ))}
