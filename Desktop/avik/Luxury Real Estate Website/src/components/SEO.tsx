@@ -13,8 +13,8 @@ export function SEO({
   title = "Easymakan | Easy makan| Buy 1BHK 2BHK 3BHK Flats in Kolkata | Real Estate Property Sale",
   description = "Easymakan - Buy & Sell 1BHK 2BHK 3BHK flats in Kolkata. Real estate properties in Newtown, Salt Lake, Rajarhat. Ready to move apartments. Best deals by Easy Makan Development.",
   keywords = "easymakan, easy makan, easymakan kolkata, 1bhk flat kolkata, 2bhk flat kolkata, 3bhk flat kolkata, buy flat kolkata, sell flat kolkata, real estate kolkata, property sale kolkata, flats for sale kolkata, newtown flats, salt lake property, rajarhat apartments, kolkata real estate, ready to move flats, luxury apartments kolkata, affordable housing kolkata, flat resale kolkata, property buy sell kolkata",
-  image = "https://easymakan.com/og-image.jpg",
-  url = "https://easymakan.com",
+  image = "https://www.easymakandev.com/og-image.jpg",
+  url = "https://www.easymakandev.com",
   type = "website"
 }: SEOProps) {
   return (
@@ -53,8 +53,8 @@ export function SEO({
           "@type": "RealEstateAgent",
           "name": "Easymakan Development Corporation",
           "alternateName": ["Easy Makan", "Easymakan", "EasyMakan Kolkata"],
-          "url": "https://easymakan.com",
-          "logo": "https://easymakan.com/logo.png",
+          "url": "https://www.easymakandev.com",
+          "logo": "https://www.easymakandev.com/logo.png",
           "description": "Easymakan - Leading real estate developer in Kolkata. Buy & sell 1BHK, 2BHK, 3BHK flats in Newtown, Salt Lake, Rajarhat. Ready to move luxury apartments and affordable housing.",
           "address": {
             "@type": "PostalAddress",
@@ -109,9 +109,9 @@ export function SEO({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
           "name": "Easymakan",
-          "image": "https://easymakan.com/logo.png",
-          "@id": "https://easymakan.com",
-          "url": "https://easymakan.com",
+          "image": "https://www.easymakandev.com/logo.png",
+          "@id": "https://www.easymakandev.com",
+          "url": "https://www.easymakandev.com",
           "telephone": "+91-8777654651",
           "priceRange": "₹₹-₹₹₹",
           "address": {
