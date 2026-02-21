@@ -9,36 +9,44 @@ export function FAQ() {
 
   const faqs = [
     {
-      question: 'What makes Easymakan Development Corporation different from other developers?',
-      answer: 'We have 25+ years of experience in Kolkata real estate with a focus on luxury properties, timely delivery, and customer satisfaction. Our projects feature world-class amenities, prime locations, and innovative architectural designs.'
+      question: 'How to buy 1BHK, 2BHK, 3BHK flats in Kolkata through Easymakan?',
+      answer: 'Easymakan offers 1BHK, 2BHK, and 3BHK flats for sale in prime Kolkata locations like Newtown, Salt Lake, and Rajarhat. Visit our office, call +91 8777654651, or WhatsApp us to explore available properties. Our team will guide you through property selection, documentation, and payment options for buying flats in Kolkata.'
     },
     {
-      question: 'What are the payment options available for property purchase?',
-      answer: 'We offer flexible payment plans including construction-linked plans, down payment options, and EMI facilities. We also assist with home loan approvals from leading banks with competitive interest rates.'
+      question: 'What makes Easymakan the best real estate developer in Kolkata?',
+      answer: 'Easymakan (Easy Makan) has 25+ years of experience in Kolkata real estate with a focus on luxury properties, timely delivery, and customer satisfaction. We offer 1BHK, 2BHK, 3BHK flats in Newtown, Salt Lake, Rajarhat with world-class amenities, prime locations, and competitive pricing for property buyers in Kolkata.'
     },
     {
-      question: 'How do I book a property with Easymakan?',
-      answer: 'You can book a property by visiting our sales office, calling +91 9749681391, or using our WhatsApp contact form. Our sales team will guide you through the documentation and payment process.'
+      question: 'Which areas in Kolkata does Easymakan have flats for sale?',
+      answer: 'Easymakan offers flats for sale in premium Kolkata locations including Newtown, Salt Lake, Rajarhat, Dum Dum, Barasat, and Baguihati. We have 1BHK, 2BHK, and 3BHK apartments in ready-to-move and under-construction projects across these prime real estate areas of Kolkata.'
     },
     {
-      question: 'What is the typical timeline for project completion?',
-      answer: 'Our projects typically take 3-4 years from launch to completion. We maintain strict timelines and provide regular updates to customers. All our ongoing projects are on schedule for timely delivery.'
+      question: 'What are the payment options for buying flats in Kolkata with Easymakan?',
+      answer: 'Easymakan offers flexible payment plans for buying 1BHK, 2BHK, 3BHK flats in Kolkata including construction-linked plans, down payment options, and EMI facilities. We assist with home loan approvals from leading banks with competitive interest rates for property purchase in Kolkata.'
     },
     {
-      question: 'Do you provide after-sales service and maintenance?',
-      answer: 'Yes, we provide comprehensive after-sales service including warranty support, maintenance assistance, and customer care. Our dedicated team ensures all issues are resolved promptly.'
+      question: 'Does Easymakan have ready to move flats in Kolkata?',
+      answer: 'Yes, Easymakan has ready to move 1BHK, 2BHK, and 3BHK flats available in Kolkata locations like Newtown, Salt Lake, and Rajarhat. These ready possession apartments come with complete amenities and are perfect for immediate occupancy. Contact +91 8777654651 for ready to move flat options.'
     },
     {
-      question: 'What amenities are included in your luxury projects?',
-      answer: 'Our luxury projects include swimming pools, fitness centers, landscaped gardens, 24/7 security, power backup, parking facilities, and smart home features. Specific amenities vary by project.'
+      question: 'What is the price range for 1BHK, 2BHK, 3BHK flats in Kolkata by Easymakan?',
+      answer: 'Easymakan offers flats in Kolkata ranging from ₹20 lakhs to ₹2 crores. 1BHK flats start from ₹20-40 lakhs, 2BHK flats from ₹40-80 lakhs, and 3BHK luxury apartments from ₹80 lakhs to ₹2 crores. Prices vary based on location, size, and amenities in Newtown, Salt Lake, Rajarhat areas.'
     },
     {
-      question: 'Is it safe to invest in Kolkata real estate market?',
-      answer: 'Kolkata real estate market has shown consistent growth with excellent connectivity, IT development, and infrastructure improvements. Our projects are located in prime areas with high appreciation potential.'
+      question: 'Can I sell my flat through Easymakan in Kolkata?',
+      answer: 'Yes, Easymakan provides property resale services in Kolkata. If you want to sell your flat in Kolkata, our real estate experts will help you find genuine buyers, handle documentation, and ensure smooth property transactions. Contact us for flat resale services in Newtown, Salt Lake, Rajarhat, and other Kolkata areas.'
     },
     {
-      question: 'Do you assist with home loan approvals?',
-      answer: 'Yes, we have tie-ups with leading banks and financial institutions. Our team assists with documentation, loan processing, and ensures competitive interest rates for our customers.'
+      question: 'What amenities are included in Easymakan flats in Kolkata?',
+      answer: 'Easymakan luxury flats in Kolkata include swimming pools, fitness centers, landscaped gardens, 24/7 security, power backup, parking facilities, and smart home features. Our 1BHK, 2BHK, 3BHK apartments in Newtown, Salt Lake, and Rajarhat offer premium amenities for modern living.'
+    },
+    {
+      question: 'Is Kolkata real estate a good investment with Easymakan?',
+      answer: 'Yes, investing in Kolkata real estate through Easymakan is safe and profitable. Kolkata property market shows consistent growth with excellent connectivity, IT development, and infrastructure improvements. Our flats in Newtown, Salt Lake, and Rajarhat are in prime areas with high appreciation potential for real estate investment.'
+    },
+    {
+      question: 'How to contact Easymakan for buying flats in Kolkata?',
+      answer: 'Contact Easymakan for buying 1BHK, 2BHK, 3BHK flats in Kolkata by calling +91 8777654651, WhatsApp us, or visit our office in Newtown, Kolkata. Our real estate experts are available to help you find the perfect property in Salt Lake, Rajarhat, and other prime Kolkata locations.'
     }
   ];
 
@@ -60,13 +68,12 @@ export function FAQ() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="text-[#d4af37]">Got Questions?</span>
+          <span className="text-[#d4af37]">Got Questions About Easymakan Flats?</span>
           <h2 className="mt-2 text-[#0a1628]">
-            Frequently Asked Questions
+            Frequently Asked Questions - Buy 1BHK 2BHK 3BHK Flats in Kolkata
           </h2>
           <p className="mt-4 max-w-2xl mx-auto text-gray-600">
-            Find answers to common questions about our luxury real estate projects, 
-            investment opportunities, and services in Kolkata.
+            Find answers about buying flats in Kolkata with Easymakan. Learn about our 1BHK, 2BHK, 3BHK properties in Newtown, Salt Lake, Rajarhat, and real estate investment opportunities.
           </p>
         </motion.div>
 
@@ -121,13 +128,13 @@ export function FAQ() {
           transition={{ duration: 0.6 }}
           className="text-center mt-12 p-8 bg-gradient-to-r from-[#0a1628] to-[#1a2a3f] rounded-2xl text-white"
         >
-          <h3 className="mb-4">Still have questions?</h3>
+          <h3 className="mb-4">Still have questions about buying flats in Kolkata?</h3>
           <p className="text-gray-300 mb-6">
-            Our expert team is here to help you with any queries about our luxury real estate projects.
+            Our Easymakan expert team is here to help you find the perfect 1BHK, 2BHK, or 3BHK flat in Kolkata. Contact us for real estate solutions in Newtown, Salt Lake, Rajarhat.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+919749681391"
+              href="tel:+918777654651"
               className="inline-flex items-center justify-center px-6 py-3 bg-[#d4af37] text-[#0a1628] rounded-lg font-semibold hover:bg-[#c49d2f] transition-colors"
             >
               Call +91 8777654651

@@ -45,7 +45,7 @@ export function Contact() {
     {
       icon: MapPin,
       title: 'Location',
-      details: 'Unit 324, PS Abacus, NH-12, Diplomatic Enclave, AA II, Newtown, Kolkata, West Bengal 700161',
+      details: 'Unit 320, PS Abacus, NH-12, Diplomatic Enclave, AA II, Newtown, Kolkata, West Bengal 700161',
       action: 'View on Map',
       link: 'https://www.google.com/maps?q=22.6189471,88.46114',
     },
