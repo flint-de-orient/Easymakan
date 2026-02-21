@@ -7,6 +7,7 @@ import { Button } from './ui/button';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs';
 import { LazyImage } from './LazyImage';
 import aponjonHousingImage from 'figma:asset/0ac0437f73bb2009358873a08ebbb7a927fd3f1b.png';
+import solaceSpringImage from '../assets/solace-spring.jpeg';
 
 export function Projects() {
   const [adminProjects, setAdminProjects] = useState([]);
@@ -36,11 +37,11 @@ export function Projects() {
         highlights: ['Premium Living', 'Modern Design', 'Quality Build', 'Prime Location'],
       },
       {
-        name: 'Solace Spring',
+        name: '4th Avenue',
         location: 'Patharghata, Kolkata, West Bengal',
         status: 'Ongoing',
         description: 'Construction in progress with premium residential development featuring modern amenities and quality construction.',
-        image: 'https://images.unsplash.com/photo-1723719523590-d5d2e0669e2e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxLb2xrYXRhJTIwc2t5bGluZSUyMG1vZGVybiUyMGJ1aWxkaW5nc3xlbnwxfHx8fDE3NjE4MzA3MDF8MA&ixlib=rb-4.1.0&q=80&w=1080',
+        image: solaceSpringImage,
         completion: '25%',
         handover: '2027',
         highlights: ['Peaceful Living', 'Modern Design', 'Quality Build', 'Prime Location'],
